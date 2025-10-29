@@ -3,7 +3,7 @@ layout: page
 title: Projects
 icon: fas fa-code
 ---
-- [**Hakam** (Problem solving judge)](https://iahmadgad.github.io/hakam/)
+- [**Hakam** (Problem solving judge)](https://aalaqily.github.io/hakam/)
 
-- [**Rust Randoms**](https://iahmadgad.github.io/randoms-rs/)
+- [**Rust Randoms**](https://aalaqily.github.io/randoms-rs/)
 

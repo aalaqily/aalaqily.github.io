@@ -10,10 +10,6 @@
 - type: rss
   icon: "fas fa-rss"
   noblank: true
-  
-- type: reddit
-  icon: 'fa-brands fa-reddit'
-  url: 'https://www.reddit.com/user/iAhmadGad'                   # Fill with your Reddit profile link
 
 - type: discord
   icon: "fa-brands fa-discord"

@@ -14,18 +14,17 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: iahmadgad
+title: Ahmad Asaad
 
-tagline: Stands with Ghaza 🔻
-
+tagline: Rustacean 🦀 — Stands with Ghaza 🇵🇸🔻 — Engineering student at Al-Azhar University
 description: Site for my personal blog & projects documentation
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://iahmadgad.github.io"
+url: "https://aalaqily.github.io"
 
 github:
-  username: iahmadgad
+  username: aalaqily
 
 #twitter:
 #  username: twitter_username # change to your Twitter username
@@ -36,11 +35,7 @@ social:
   email: ahmadasaadh@gmail.com
   links:
     # The first element serves as the copyright owner's link
-    #- https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/iahmadgad
-    # Uncomment below to add more social links
-    - https://www.facebook.com/iahmadgad
-    # - https://www.linkedin.com/in/username
+    - https://github.com/aalaqily
 
 # Site Verification Settings
 webmaster_verifications:
@@ -96,7 +91,7 @@ theme_mode: dark
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: assets/img/avatars/70626969.png
+avatar: assets/img/avatars/engineer-cat.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
