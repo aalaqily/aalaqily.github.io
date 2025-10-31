@@ -1,5 +1,8 @@
 serve *ARGS:
 	bundle exec jekyll serve {{ARGS}}
+
+build *ARGS:
+	bundle exec jekyll build {{ARGS}}
+
 clean:
-	find * -type d -name '__pycache__' -exec rm -rf {} +
-	find * -type f -name '*~' -exec rm -f {} +
+	find * -type d -name '_site' -exec rm -rf {} +
