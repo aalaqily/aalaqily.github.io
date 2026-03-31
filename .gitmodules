@@ -1,0 +1,4 @@
+[submodule "themes/hacker"]
+	path = themes/hacker
+	url = https://github.com/aalaqily/zola-hacker.git
+	branch = master

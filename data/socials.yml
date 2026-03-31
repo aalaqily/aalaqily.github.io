@@ -1,0 +1,11 @@
+- platform: email
+  url: 'mailto:'
+  icon: mail
+
+- platform: github
+  url: https://github.com/
+  icon: github-circled
+
+- platform: feed
+  url: /atom.xml
+  icon: rss

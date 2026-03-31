@@ -7,10 +7,94 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-[markdown]
+# Theme
+theme = "hacker"
 
+# The title of the site
+title = "Ahmad Asaad"
+
+# The description of the site
+description = "0xΛrcher — Rustacean 🦀 — Stands with Ghaza 🇵🇸🔻 — Engineering student at Al-Azhar University"
+
+author = "Ahmad Asaad"
+
+# Whether to minify the HTML when building the site
+minify_html = false
+
+# Whether to generate an Atom feed
+generate_feeds = true
+
+# Taxonomies
+taxonomies = [{ name = "tags" }]
+
+[markdown]
+# Whether to do syntax highlighting
 [markdown.highlighting]
-theme = "catppuccin-mocha"
+theme = "dark-plus"
+
+# Whether to render emojis
+render_emoji = true
+
+# Whether footnotes are rendered in the GitHub-style (at the bottom, with back references) or plain (in the place, where they are defined)
+bottom_footnotes = true
 
 [extra]
-# Put all your custom variables here
+title_separator = "|" # set as |, -, _, etc
+
+# The path to the logo of the site
+logo = "images/logo.png"
+
+# Contact form script id that points to google macros (e.g. https://script.google.com/macros/s/<script-identifier>/exec)
+# More info about contact form based on google macros can be found here: https://github.com/en9inerd/learn-to-send-email-via-google-script-html-no-server
+contact_form_script_id = "<script-identifier>"
+
+# Visitor notifier based on IFTTT + Webhooks. Sample here - /static/js/monitor.js
+monitor = false
+
+# Menu items
+menu = [{ url = "/about", name = "About" }, { url = "/tags", name = "Tags" }]
+
+language_code = "en-US"
+
+# Enable OpenGraph metadata
+opengraph = true
+
+timezone = "Africa/Cairo"
+
+# The path to cv file if you use cv shortcode
+# cv_file = "/files/Curriculum_Vitae.pdf"
+
+# provide link to edit page on github
+edit_page = true
+
+# Use theme specific tags page based on templates/tags.html
+simplified_tags = false
+
+# Social links
+social_links = [
+  { platform = "email", user_id = "ahmadasaadh@gmail.com" },
+  { platform = "github", user_id = "aalaqily" },
+  { platform = "feed", user_id = true },
+]
+
+# GitHub settings that are used to generate the edit page link
+[extra.github]
+username = "aalaqily"
+repo = "aalaqily.github.io"
+
+# PGP key
+# [extra.pgp_key]
+# url = "https://keys.openpgp.org/vks/v1/by-fingerprint/0000000000000000000000000000000000000000"
+# fingerprint = "0000 0000 0000 0000 0000 0000 0000 0000 0000 0000"
+
+# JSON-LD metadata
+# [extra.bio]
+# gender = "male"
+# employer_name = "Unknown"
+# employer_url = "https://unknown.com"
+# job_title = "Software Engineer"
+# links = [
+#  "https://github.com/johndoe",
+#  "https://linkedin.com/in/johndoe",
+#  "https://twitter.com/johndoe",
+# ]
