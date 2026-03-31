@@ -3,7 +3,7 @@ title = "Summation of the $n$ natural numbers from $1$ to $n$"
 date = 2026-03-31T13:52:00+00:00
 
 [taxonomies]
-tags = ["Mathematics", "Number Theory"]
+tags = ["mathematics", "number theory"]
 +++
 
 Summation of the $n$ natural numbers from $1$ to $n$ can be calculated using this formula:
