@@ -1,8 +1,11 @@
-serve *ARGS:
-	bundle exec jekyll serve {{ARGS}}
+set working-directory := '.'
 
-build *ARGS:
-	bundle exec jekyll build {{ARGS}}
+serve:
+    zola serve
 
-clean:
-	find * -type d -name '_site' -exec rm -rf {} +
+alias s := serve
+
+build:
+    zola build
+
+alias b := build

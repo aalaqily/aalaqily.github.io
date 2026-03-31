@@ -1,3 +1,4 @@
-[submodule "assets/lib"]
-	path = assets/lib
-	url = https://github.com/cotes2020/chirpy-static-assets.git
+[submodule "themes/hacker"]
+	path = themes/hacker
+	url = https://github.com/aalaqily/zola-hacker.git
+	branch = master
