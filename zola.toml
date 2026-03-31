@@ -82,6 +82,21 @@ social_links = [
 username = "aalaqily"
 repo = "aalaqily.github.io"
 
+[extra.giscus]
+repo = "aalaqily/aalaqily.github.io"
+repo_id = "R_kgDOMFOWEw"
+category = "Comments"
+category_id = "DIC_kwDOMFOWE84C5tB5"
+mapping = "og:title"
+strict = 0
+reactions_enabled = 1
+emit_metadata = 0
+input_position = "top"
+theme = "dark"
+lang = "en"
+loading = "lazy"
+crossorigin = "anonymous"
+
 # PGP key
 # [extra.pgp_key]
 # url = "https://keys.openpgp.org/vks/v1/by-fingerprint/0000000000000000000000000000000000000000"
