@@ -1,6 +1,6 @@
 +++
 title = "Hello World!"
-date = 2026-03-31
+date = 2026-03-31T13:10:00+00:00
 
 [taxonomies]
 tags = ["General"]
